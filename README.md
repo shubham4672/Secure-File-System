@@ -73,9 +73,3 @@ The secure file upload and download application effectively implements the propo
 - Expand supported file types and size limits: The application could be extended to support additional file types and larger file sizes, making it more versatile and useful for a wider range of users.
 - Continuous security testing and auditing: Regular security testing and audits should be performed to ensure that the application remains secure and up-to-date with the latest threatsand vulnerabilities.
 - Move from hard-coded key management to dynamic encryption key management. This would ensure that the encryption keys used to secure the uploaded files are generated and changed periodically, using a secure key management system. This approach would provide better security for the application and protect sensitive data from potential attackers. Regular security testing and audits should also be performed to ensure that the encryption key management system is secure and up-to-date with the latest threats and vulnerabilities.
-
-Developers:
-
-- Fasika Fikadu: Backend Developer, email: fasikafikadu38@gmail.com
-- Dagmawi Tensay: Frontend Developer, email: dagitensay@gmail.com
- 
