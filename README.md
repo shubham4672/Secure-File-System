@@ -1,6 +1,6 @@
 # Secure File Upload and Download Application
 
-## Table of Contents
+## Table of Content
 
 1. Introduction (Background)
 2. Objective
