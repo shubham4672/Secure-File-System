@@ -30,9 +30,8 @@ Sure! Here's the updated version with the technologies used section added:
 - Backend: Node.js, Nest.js
 - Database: MySQL
 - Middleware: Multer
-- algorithms: Aes (crypto js) for file encryption is preferred because of it's speed and simple interface ,
-             - becrypt for password hashing and hmac for file integrity checking
-
+- Algorithms: AES (crypto js) for file encryption is preferred because of it's speed and simple interface,
+             - bcrypt for password hashing and HMAC for file integrity checking
 
 ## 3. Scope and Limitations
 
