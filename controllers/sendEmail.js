@@ -11,7 +11,7 @@ const sendEmailResend = async (
   try {
     const response = await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: receiverEmail,
+      to: "shubham4672.20@gmail.com",
       subject: `Here is your File ID from ${senderName}!`,
       text: `Your file is ready to download. Use the link: http://localhost:4000/download/${fileID}`,
       html: `

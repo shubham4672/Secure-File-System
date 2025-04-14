@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(xss());
 
-const sendEmailMailjet = require("./controllers/sendEmail");
+const resendService = require("./controllers/sendEmail");
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -67,7 +67,7 @@ app.post("/", express.json(), async (req, res) => {
 
     if (receiverEmail) {
       try {
-        await sendEmailMailjet(receiverEmail, fileId);
+        await resendService(receiverEmail, fileId);
       } catch (error) {
         console.log("Error sending email:", error);
 
@@ -125,7 +125,7 @@ app.get("/download/:id", async (req, res) => {
 app.post("/send", express.json(), async (req, res) => {
   const { receiverEmail, fileID, senderName } = req.query;
   try {
-    await sendEmailMailjet(receiverEmail, fileID, senderName);
+    await resendService(receiverEmail, fileID, senderName);
     res.status(200).json({ msg: "Email sent successfully" });
   } catch (error) {
     console.error("Error sending email: ", error);
