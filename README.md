@@ -4,11 +4,11 @@ Secure File Sharing App is a comprehensive solution for secure file exchange, de
 
 # Application interface
 
-![screencapture-localhost-5173-2024-02-09-09_13_53](https://github.com/Kuzma02/Secured-File-Share/assets/138793624/bd3c6cf8-5a0a-4c96-a7c7-a77052a2674e)
+![Screenshot 2025-04-25 at 21-22-34 EncryptShare - Secured File Sharing](https://github.com/user-attachments/assets/73f1df52-b8e1-4eb7-bf12-b249f8691c14)
 
-![screencapture-localhost-5173-app-2024-02-09-09_14_12](https://github.com/Kuzma02/Secured-File-Share/assets/138793624/da30c3e4-bf2e-4550-b7b9-2ff8e1acbf77)
+![image](https://github.com/user-attachments/assets/503da8a6-755d-4b84-b5c3-038eb80cbe21)
 
-![screencapture-localhost-5173-download-2024-02-09-09_14_20](https://github.com/Kuzma02/Secured-File-Share/assets/138793624/3f9a9ffb-1e81-4d33-a7c6-ba1f08d64c82)
+![image](https://github.com/user-attachments/assets/4f3fc230-560c-42c5-a761-7a9654f31b14)
 
 # Features
 - End-to-End Encryption: Leveraging strong encryption algorithms to ensure that files are encrypted from the moment they leave the sender's device until they are decrypted by the recipient, guaranteeing that the contents remain confidential and tamper-proof during transit.
@@ -19,10 +19,45 @@ Secure File Sharing App is a comprehensive solution for secure file exchange, de
 - Comprehensive Security Practices: Integrates a variety of security measures, including secure headers, HTTPS enforcement, and content security policies, to mitigate risks and protect against a wide range of vulnerabilities.
 
 # Technologies Used
-- MongoDB: For a flexible, scalable database.
-- Express.js: To handle server-side logic and RESTful API endpoints.
-- React: For building a dynamic and responsive user interface.
-- Node.js: As the runtime environment for executing JavaScript on the server side.
+
+### 🖥️ **Frontend Technologies**  
+1) React  
+2) Tailwind CSS  
+3) Zod  
+4) React–Toastify  
+
+---
+
+### 🔧 **Backend Technologies**  
+1) Node.js  
+2) Express.js  
+3) express-fileupload  
+4) express-rate-limit  
+5) express-nosql-sanitizer  
+6) express-xss-sanitizer  
+7) Helmet  
+8) CORS  
+
+---
+
+### 🗄️ **Database**  
+1) MongoDB (via Mongoose)  
+
+---
+
+### 🔐 **Client-Side Cryptography**  
+1) Web Crypto API  
+
+---
+
+### 📧 **Email Service**  
+1) Resend API  
+
+---
+
+### 🛠️ **Utility Libraries**  
+1) uuid  
+2) dotenv
 
 # Getting Started
 To get a local copy up and running, follow these simple steps.
