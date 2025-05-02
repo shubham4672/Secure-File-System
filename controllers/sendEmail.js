@@ -21,11 +21,6 @@ const sendEmailResend = async (
         <b>Because of our security policy we don't share passwords. You need to ask the sender for it.</b>
       `,
     });
-    console.log("📨 Preparing to send email to:", receiverEmail);
-    console.log("📧 Resend API response:", JSON.stringify(response, null, 2));
-
-    console.log("📂 File uploaded. Receiver email:", receiverEmail);
-
     if (response?.id) {
       return { success: true, data: response };
     } else {
